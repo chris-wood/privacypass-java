@@ -1,6 +1,6 @@
 # Sample Java implementation of Privacy Pass
 
-WARANING: This is NOT meant for production use, has not been audited, may contain bugs, etc. Use at your own risk. 
+WARNING: This is NOT meant for production use, has not been audited, may contain bugs, etc. Use at your own risk. 
 
 This repository contains Java bindings to [this native blind RSA implementation](https://github.com/jedisct1/blind-rsa-signatures), as well as a simple Privacy Pass client that uses these functions to run the Privacy Pass [issuance protocol](https://ietf-wg-privacypass.github.io/base-drafts/draft-ietf-privacypass-protocol.html). The purpose is to demonstrate how one might implement the Privacy Pass protocol in Java using an existing Blind RSA implementation. It almost certainly can be improved (for instance, there are no tests).
 
